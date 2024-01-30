@@ -25,13 +25,13 @@ SECRET_KEY = '!jm-wo+zp$+p9o!tbvqr=)aj2!m6ee*v_ca7^p2slj^%426#s9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['Avudai.pythonanywhere.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
 
 INSTALLED_APPS = [
-    'Apps.homeApp',
+    'homeApp',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
